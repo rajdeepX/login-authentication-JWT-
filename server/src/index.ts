@@ -31,4 +31,3 @@ mongoose.connect(process.env.MONGO_URL!).then(() => {
     console.log(`Server started at: ${PORT}`);
   });
 });
-// mongodb+srv://newUser:Uz5yzclBqVaMsK1N@cluster0.6url4gm.mongodb.net/?retryWrites=true&w=majority
